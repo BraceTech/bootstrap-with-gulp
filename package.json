@@ -1,29 +1,33 @@
 {
-  "name": "faced",
+  "name": "bootstrap-with-gulp",
   "version": "1.0.0",
-  "description": "UI for faced",
-  "main": "index.html",
+  "description": "A simple project to work with bootstrap using gulp.",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraceTech/bootstrap-with-gulp.git"
+  },
   "keywords": [
-    "faced"
+    "bracetech"
   ],
-  "author": "Junaid Malik",
+  "author": "BraceTech",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BraceTech/bootstrap-with-gulp/issues"
+  },
+  "homepage": "https://github.com/BraceTech/bootstrap-with-gulp#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "glob": "^7.1.4",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssnano": "^2.1.3",
-    "jquery": "^3.4.1",
-    "popper": "^1.0.1",
-    "popper.js": "^1.15.0",
-    "tether": "^1.4.7"
+    "popper.js": "^1.14.7"
   },
   "devDependencies": {
+    "bootstrap": "^4.3.1",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1"
   }
 }
